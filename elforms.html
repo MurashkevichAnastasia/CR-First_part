@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задания 11.Отправка данных на сервер</title>
+</head>
+<body>
+    <div class="menubar">
+        <div class="menu-list"><a href="wikimedium.html">Wiki</a></div>
+        <div class="menu-list"><a href="about.html" id="color-green">О проекте</a></div>
+        <div class="menu-list"><a href="elforms.html">11</a></div>
+        <div class="menu-list"><a href="twforms.html">12</a></div>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Цикады 3301</button>
+          <div id="myDropdown" class="dropdown-content">
+              <a href="page.html" target="_self">Цикады 3301</a>
+              <a href="#capibara" target="_self">Капибара</a>
+              <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BF%D0%B8%D0%B1%D0%B0%D1%80%D0%B0" target="_blank">Капибара +</a>
+          </div>
+        </div>
+     </div>
+
+    <h3 align="center">Задания 11-12. Формы</h3>
+<!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
+<!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <p>Для поисковика:<input type="Text"  name="q" value="search"></p>
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Мурашкевич"></p>
+    <p>Имя: <input type="Text" name="name" size=20  value="Анастасия"></p>
+    <p>Телефон: <input type="Text" name="phone" size=20  value="+79015678767"></p>
+    <p>Почта: <input type="Text" name="mail" size=20  value="murashkevich@gmail.comß"></p>
+
+    <p>Дата: <input type="date" name="user_date"  value='2000-01-01'></p>
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+</body>
+</html>
+
+
