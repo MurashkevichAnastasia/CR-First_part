@@ -103,3 +103,7 @@ article ol {
 #color-green {
   color: green;
 }
+.nark-img {
+  height: auto;
+  width: 700px;
+}
